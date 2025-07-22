@@ -124,7 +124,7 @@ Puedes agregar estos scripts a tu `package.json`:
 
 ```json
 "scripts": {
-  "start": "node index.js"
+  "start": "node bot.js"
 }
 ```
 
