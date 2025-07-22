@@ -54,7 +54,7 @@ Este proyecto es un bot de Discord que escucha mensajes en servidores y los env�
 
 ```text
 .
-├── index.js       # Punto de entrada de la aplicación
+├── bot.js       # Punto de entrada de la aplicación
 ├── .env           # Variables de entorno (no en el repositorio)
 ├── .gitignore     # Ignora node_modules y .env
 └── package.json   # Dependencias y scripts
@@ -68,14 +68,14 @@ Este proyecto es un bot de Discord que escucha mensajes en servidores y los env�
 2. Ejecuta el bot:
 
    ```bash
-   node index.js
+   node bot.js
    ```
 3. El bot se conectará a Discord y comenzará a escuchar mensajes.
 4. Cada vez que se detecte un mensaje (que no sea de un bot), se enviará al webhook de n8n.
 
 ---
 
-## 📄 index.js (Resumen del código)
+## 📄 bot.js (Resumen del código)
 
 ```js
 require('dotenv').config();
